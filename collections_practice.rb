@@ -20,8 +20,7 @@ end
 
 def kesha_maker(x)
   n_x = []
-  x.each do |word|
-   puts (word(3) == "$")
+  x.
   n_x << kesha_maker(x)
 end 
 n_x
