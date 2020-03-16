@@ -3,3 +3,4 @@ def sort_array_asc(x)
     if a <=> b
   end
 end
+end
