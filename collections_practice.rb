@@ -27,6 +27,6 @@ end
 
 def find_a(x)
   n_x = []
- val = x.starts_with?("a")
+ val = x.start_with?("a")
 n_x << val
 end
