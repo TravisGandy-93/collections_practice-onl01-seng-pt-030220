@@ -26,7 +26,9 @@ end
 end
 
 def find_a(x)
-  n_x = []
- val = x.start_with?("a")
-n_x << val
+ n_x = []
+ x.each do |word|
+   if word[0] == "a"
+     return word 
+   end
 end
