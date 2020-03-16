@@ -41,5 +41,5 @@ def add_s(x)
  x.each_with_index.collect do |words, index|
 index == 1 ? words : words[words.length] = "s" 
 end
-word
+x
 end
