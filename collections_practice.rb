@@ -43,5 +43,3 @@ index == 1 ? words : words[words.length] = "s"
 end
 word
 end
-  
-end
