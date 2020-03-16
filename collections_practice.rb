@@ -40,7 +40,7 @@ end
 def add_s(x)
   n_x = []
   x.each do |word|
-  n_x << word[0, 2, 3] + "s"
+  n_x << word[] + "s"
   end
   n_x
 end
