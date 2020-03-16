@@ -23,5 +23,4 @@ def kesha_maker(x)
   x.each do |word|
     word[2] = "$"
 end 
-n_x
 end
