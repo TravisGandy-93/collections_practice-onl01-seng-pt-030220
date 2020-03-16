@@ -20,6 +20,7 @@ end
 
 def kesha_maker(x)
   n_x = []
-  n_x << x.each{|word|}
+  x.each do |word|
+    
   n_x
 end 
