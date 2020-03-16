@@ -29,8 +29,8 @@ def find_a(x)
  n_x = []
  x.each do |word|
    n_x << word  if word[0] == "a"
-    
    end
-   n_x
-  end
+   n_x 
+end
 
+def 
