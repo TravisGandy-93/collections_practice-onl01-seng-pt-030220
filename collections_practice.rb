@@ -39,6 +39,7 @@ end
 
 def add_s(x)
   n_x = []
+  i = 0 
   x.each_with_index.collect do |word, i|
     n_x << word + "s" if i != 2
   end
