@@ -19,5 +19,5 @@ def reverse_array(x)
 end 
 
 def kesha_maker(x)
-  x[2] = "$"
+  
 end 
