@@ -42,3 +42,4 @@ def add_s(x)
   x.each do |word|
     word << "s" unless word[1]
   end
+end
