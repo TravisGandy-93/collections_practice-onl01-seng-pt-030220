@@ -7,5 +7,5 @@ def sort_array_desc(x)
 end
 
 def sort_array_char_count(x)
-  
+  x
 end
