@@ -38,11 +38,10 @@ def sum_array(x)
 end
 
 def add_s(x)
-  n_x = []
-  i = 0 
-  x.collect do |word|
-    n_x << word + "s" 
-
-  end
-  n_x
+ x.each_with_index.collect do |words, index|
+index == 1 ? words : words[words.length] = "s" 
+end
+word
+end
+  
 end
