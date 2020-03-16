@@ -38,5 +38,7 @@ def sum_array(x)
 end
 
 def add_s(x)
-  
-end
+  n_x = []
+  x.each do |word|
+    word << "s" unless word[1]
+  end
