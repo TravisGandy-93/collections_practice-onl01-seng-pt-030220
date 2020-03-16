@@ -33,4 +33,6 @@ def find_a(x)
    n_x 
 end
 
-def 
+def sum_array(x)
+  
+end
