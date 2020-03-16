@@ -28,8 +28,7 @@ end
 def find_a(x)
   n_x = []
  n_x << x.each{|word|word.start_with?("a")}
-end
+
 n_x
-end
 end
 end
