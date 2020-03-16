@@ -24,3 +24,7 @@ def kesha_maker(x)
     word[2] = "$"
 end 
 end
+
+def find_a(x)
+  
+end
