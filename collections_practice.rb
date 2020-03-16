@@ -42,5 +42,5 @@ def add_s(x)
   x.each do |word|
   n_x <<  (word << "s" unless word = "feet")
   end
-  
+  n_x
 end
