@@ -31,4 +31,3 @@ def find_a(x)
 
 n_x
 end
-end
