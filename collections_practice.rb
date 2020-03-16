@@ -21,6 +21,8 @@ end
 def kesha_maker(x)
   n_x = []
   x.each do |word|
-    
-  n_x
+    word(3) == "$"
+  n_x << kesha_maker(x)
 end 
+n_x
+end
