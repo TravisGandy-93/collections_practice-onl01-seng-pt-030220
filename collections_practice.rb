@@ -31,4 +31,5 @@ def find_a(x)
    if word[0] == "a"
      return word 
    end
+  end
 end
